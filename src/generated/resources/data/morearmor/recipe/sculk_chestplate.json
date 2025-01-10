@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X X",
+    "XYX",
+    "XXX"
+  ],
+  "key": {
+   "Y": {
+      "item": "minecraft:diamond"
+    },
+    "X": {
+      "item": "minecraft:sculk"
+    }
+  },
+  "result": {
+    "item": "morearmor:sculk_chestplate"
+  }
+}
