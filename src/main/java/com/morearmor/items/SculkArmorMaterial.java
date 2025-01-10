@@ -12,7 +12,7 @@ public class SculkArmorMaterial implements ArmorMaterial {
     // 各部位の耐久値 (ヘルメット, チェストプレート, レギンス, ブーツ)
     private static final int[] DURABILITY = {371, 567, 499, 423};
     // 防御力 (ヘルメット, チェストプレート, レギンス, ブーツ)
-    private static final int[] PROTECTION_VALUES = {2, 7, 5, 2};
+    private static final int[] PROTECTION_VALUES = {2, 7, 6, 2};
 
     @Override
     public int getDurability(EquipmentSlot slot) {
