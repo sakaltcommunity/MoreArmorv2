@@ -1,13 +1,13 @@
 package com.morearmor;
 
 import com.morearmor.registry.ModRegistry;
+import com.morearmor.events.ModEvents;
 import net.fabricmc.api.ModInitializer;
 
 public class ModMain implements ModInitializer {
-
     @Override
     public void onInitialize() {
-        // Modの初期化処理
-        ModRegistry.onInitialize();
+        ModRegistry.registerItems();
+        ModEvents.register();
     }
 }
