@@ -19,5 +19,11 @@ public class ModRegistry {
         Registry.register(Registry.ITEM, new Identifier("morearmor", "lightning_chestplate"), LightningArmorItem.LIGHTNING_CHESTPLATE);
         Registry.register(Registry.ITEM, new Identifier("morearmor", "lightning_leggings"), LightningArmorItem.LIGHTNING_LEGGINGS);
         Registry.register(Registry.ITEM, new Identifier("morearmor", "lightning_boots"), LightningArmorItem.LIGHTNING_BOOTS);
+
+        // Quartz防具のレジストリ登録
+        Registry.register(Registry.ITEM, new Identifier("morearmor", "quartz_helmet"), QuartzArmorItem.QUARTZ_HELMET);
+        Registry.register(Registry.ITEM, new Identifier("morearmor", "quartz_chestplate"), QuartzArmorItem.QUARTZ_CHESTPLATE);
+        Registry.register(Registry.ITEM, new Identifier("morearmor", "quartz_leggings"), QuartzArmorItem.QUARTZ_LEGGINGS);
+        Registry.register(Registry.ITEM, new Identifier("morearmor", "quartz_boots"), QuartzArmorItem.QUARTZ_BOOTS);
     }
 }
