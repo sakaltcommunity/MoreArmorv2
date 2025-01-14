@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "Q Q",
+    "QQQ",
+    "QQQ"
+  ],
+  "key": {
+    "Q": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "result": {
+    "item": "morearmor:quartz_chestplate"
+  }
+}
